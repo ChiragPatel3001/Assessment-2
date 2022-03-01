@@ -1,0 +1,103 @@
+.tabular-List {
+    // border: 1px solid firebrick;
+    margin-top: 30px;
+    height: 500px;
+    // padding: 0 20px;
+    background-color: $primary-bg;
+    position: relative;
+    overflow: auto;
+    table-layout: fixed;
+
+    
+
+    .table {
+        width: 100%;
+        text-align: left;
+        // border-collapse: collapse;
+        border-spacing: 0 0.2rem;
+        @include for-size(phone-only) {
+            font-size: 0.75rem;
+        }
+        @include for-size(tablet-landscape-up) {
+            font-size: 0.75rem;
+        }
+
+        .table-row {
+            background-color: $content-bg;
+        }
+        .t-head {
+            padding: 10px 5px;
+            color: $icon-color;
+            font-weight: 400;
+            background-color: $content-bg;
+            position: sticky;
+            top: 0;
+        }
+
+        .t-data {
+            padding: 0px 5px;
+            padding-right: 15px;
+            margin: 5px 0;
+            border-radius: $content-border-radius;
+        }
+    }
+
+    .pdt-img {
+        padding-right: 15px;
+
+        .pdt-name-avatar {
+            width: 20px;
+            height: 30px;
+        }
+    }
+}
+.pdt-amazon {
+    width: 50px;
+    height: 50px;
+}
+
+.status {
+    padding: 6px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+.status-type-alert {
+    background-color: $heart;
+}
+.status-type-primary {
+    background-color: $cost;
+}
+.status-type-warning {
+    background-color: $cart;
+}
+.status-type-primary {
+    background-color: $primary-bg;
+}
+.alert {
+    color: $alert;
+
+    @include for-size(desktop-up) {
+        font-size: 0.7rem;
+    }
+}
+.primary {
+    color: $primary;
+
+    @include for-size(desktop-up) {
+        font-size: 0.7rem;
+    }
+}
+.warning {
+    color: $warning;
+
+    @include for-size(desktop-up) {
+        font-size: 0.7rem;
+    }
+}
+.primary-clr {
+    color: $table-primary;
+
+    @include for-size(desktop-up) {
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,15 @@
+// Function styles goes here
+// @each $key, $value in $card-theme {
+//     .card-#{$key} {
+//         .icon-container{
+//             background-color: rgba($color: $value, $alpha: 0.15);
+//         }
+//         .card-icon{
+//             color: $value;
+//         }
+//         transition: all 0.4s ease;
+//         &:hover{
+//             background-color: rgba($color: $value, $alpha: 0.5);
+//         }
+//     }
+// }

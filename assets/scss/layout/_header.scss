@@ -1,0 +1,70 @@
+// Header area style
+.topNav {
+    height: 80px;
+    // border: 1px solid black;
+    background-color: $content-bg;
+    border-bottom: 2px solid $topNav-border-bottom;
+    flex-shrink: 0;
+}
+.topNav-Left {
+    // border: 1px solid red;
+    .Logo {
+        width: 250px;
+        padding: 0 50px;
+        // background-image: url("/assets/images/v1043-044a.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        @include for-size(tablet-portrait-up) {
+            padding-right: 0px;
+        }
+        @include for-size(tablet-landscape-up) {
+            padding-right: 0px;
+        }
+        @include for-size(phone-only) {
+            padding-right: 0;
+        }
+    }
+    .dashboard{
+        padding-left: 20px;
+        @include for-size(desktop-up) {
+            padding-left: 0px;
+        }
+        @include for-size(tablet-portrait-up) {
+            padding-left: 0px;
+        }
+        @include for-size(phone-only) {
+            padding-left: 0;
+        }
+    }
+}
+.topNav-Right {
+    // border: 1px solid blue;
+    padding-right: 30px;
+   
+
+    .icon-alert {
+        font-size: $navbar-icon-size;
+        padding-right: 20px;
+        color: $icon-color;
+        font-weight: 500;
+        @include for-size(tablet-portrait-up) {
+            font-size: 1.25rem;
+        }
+        
+        @include for-size(phone-only) {
+            font-size: 1rem;
+        }
+    }
+
+    .avatar-container{
+        padding-right: 10px;
+    }
+    .profile-name {
+        padding-right: 10px;
+    }
+
+    .icon-upside-down{
+        font-weight : bold;
+    }
+}

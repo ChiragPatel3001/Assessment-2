@@ -1,0 +1,26 @@
+.main-content {
+    height: 100%;
+    flex-direction: row;
+    flex-grow: 1;
+    overflow: hidden;
+    background-color: $primary-bg;
+
+    .main {
+        // border: 1px solid yellow;
+        padding: 25px 30px;
+        height: 100%;
+        width: 100%;
+        flex-grow: 1;
+        overflow: auto;
+        // scrollbar-gutter: stable;
+
+        .Activity-Table {
+            // border: 1px solid rebeccapurple;
+            margin: 10px 0;
+            flex-grow: 1;
+            flex-wrap: wrap;
+            // padding-bottom: 40px;
+        
+        }
+    }
+}

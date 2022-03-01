@@ -1,0 +1,20 @@
+// Button styles goes here
+.filter-btn{
+    height: $btn-height;
+    padding: $btn-padding;
+    background-color: $button-color;
+    color: $content-bg;
+    border: none;
+    font-size: $btn-font-size;
+    border-radius:$content-border-radius;
+    cursor: pointer;
+    @include for-size(desktop-up){
+        height: 40px;
+        padding: 8px 24px;
+        font-size: 0.80rem;
+    }
+}
+.icon-filter{
+    font-size: 1rem;
+    padding-right: 8px;
+}

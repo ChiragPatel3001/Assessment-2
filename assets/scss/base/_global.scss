@@ -1,0 +1,99 @@
+// Global styles goes here
+// Global styles goes here
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    // color: $font-color;
+}
+// border-radius
+$content-border-radius: 5px; 
+
+// Height width
+.h-100{
+    height: 100%;
+}
+.w-100 {
+    width: 100%;
+}
+.w-50 {
+    width: 50%;
+}
+
+// Flex
+
+.d-flex {
+    display: flex;
+}
+
+.justify-space-btn{
+    justify-content: space-between;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.justify-flex-end{
+    justify-content: flex-end;
+}
+
+.justify-center{ 
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+// wrapper
+.wrapper {
+    height: 100%;
+    overflow: hidden;
+}
+
+// general styles
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.active{
+    color: $primary;
+    cursor: pointer;
+}
+
+
+// Overflow
+.overflow-hidden {
+    overflow: hidden;
+}
+.overflow-scroll {
+    overflow: scroll;
+}
+.overflow-auto {
+    overflow: auto;
+}
+.overflow-vertical {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

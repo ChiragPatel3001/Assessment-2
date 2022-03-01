@@ -1,0 +1,67 @@
+// Theme Primary Color
+$primary: #00b11c;
+
+// Mainly use for UI controls like Buttons
+$warning: #f58d2a;
+
+// Used for Footer Section
+$alert: #dc6162;
+
+// Mainly use for Normal Text color
+$gray: #50515a;
+
+// icon Color
+$icon-color: #82838c;
+
+$theme-colors: (
+  "primary": $primary,
+  "warning": $warning,
+  "alert": $alert,
+  "gray": $gray,
+);
+
+// background
+$primary-bg: #fafafa;
+$content-bg: #ffffff;
+
+// table
+$table-header: #82838c;
+
+// Button
+$button-color:$primary;
+$btn-text-primary: $content-bg;
+
+
+// card-icon-colors
+$barcode: #000000;
+$list:#389cff;
+$calculator:#18ad6f;
+$cart: #f58d2a;
+$dollar:#6a69ff;
+$heart: #fb5e5e;
+ 
+// cards-icon-bg
+$scan:$primary-bg;
+$list:#e9f4ff;
+$cost:#e7f8f0;
+$cart:#fff4e8;
+$dollar:#f1f0ff;
+$heart:#ffeeed;
+
+// Navbar-border
+$topNav-border-bottom: #e2e2e2;
+
+// sidebar-hover
+$sidebar-hover-bg: #f2fcf4;
+
+$card-theme: (
+  "barcode": $barcode,
+  "list": $list,
+  "calculator": $calculator,
+  "cart": $cart,
+  "dollar": $dollar,
+  "heart": $heart,
+);
+
+// table
+$table-primary: #000000;

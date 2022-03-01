@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment-2</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/icons/style.css">
+</head>
+
+<body>
+    <!-- Main Wrapper : Start -->
+    <div class="wrapper d-flex flex-column">
+
+
+        <!-- Top-Navigation: Start -->
+        <div class="topNav d-flex justify-space-btn">
+            <!-- Top-Nav Left: Start -->
+            <div class="topNav-Left d-flex align-items-center">
+                <div class="Logo d-flex">
+                    <h1 class="logo-text">TallyScan</h1>
+                </div>
+                <span class="dashboard">Dashboard</span>
+            </div>
+            <!-- Top-Nav Left: End -->
+
+            <!-- Top-Nav Right: Start -->
+            <div class="topNav-Right d-flex align-items-center">
+                <a href="#"><span class="icon-alert"></span></a>
+                <figure class="avatar-container"><img class="avatar" src="../assets/images/johnny-bravo-classic-badge-india.jpg"
+                        alt="ProfileIcon">
+                </figure>
+                <span class="profile-name">John Smith</span>
+                <a href="#"><span class="icon-upside-down"></span></a>
+            </div>
+            <!-- Top-Nav Right: End -->
+        </div>
+        <!-- Top-Navigation: End -->
+
+        <!-- Main Content Container: Start -->
+        <div class="main-content d-flex">
+            <input type="checkbox" id="sidebar-toggle">
+            <!-- Sidebar: Start -->
+            <aside class="sidebar d-flex flex-column">
+                <nav class="sideNav-top d-flex flex-column">
+                    <span>GENERAL</span>
+                    <ul class="sideNav-top-list d-flex flex-column">
+                        <li class="side-nav-item"><a href="#" class="icon-search sidebar-icon"></a>Search</li>
+                        <li class="side-nav-item"><a href="#" class="icon-alert sidebar-icon"></a>Alerts</li>
+                        <li class="side-nav-item"><a href="#" class="icon-price-tag sidebar-icon"></a>Tags</li>
+                    </ul>
+                </nav>
+                <nav class="sideNav-bottom d-flex flex-column">
+                    <span>OTHERS</span>
+                    <ul class="sideNav-bottom-list d-flex flex-column">
+                        <li class="side-nav-item"><a href="#" class="icon-settings sidebar-icon"></a>Settings</li>
+                        <li class="side-nav-item"><a href="#" class="icon-sun sidebar-icon"></a>Tips</li>
+                        <li class="side-nav-item"><a href="#" class="icon-bin sidebar-icon"></a>Trash</li>
+                        <li class="side-nav-item"><a href="#" class="icon-logout sidebar-icon"></a>Logout</li>
+                    </ul>
+                </nav>
+            </aside>
+            <label class="toggle" for="sidebar-toggle"><span class="icon-hamburger"></span></label>
+            <!-- Sidebar: End -->
+
+            <!-- Main Content : Start -->
+            <main class="main d-flex flex-column">
+
+                <!-- Main-Section-1 : Start -->
+                <section class="main-cards d-flex flex-column">
+                    <!-- Filter Button Container : Start -->
+                    <div class="filter d-flex justify-flex-end">
+                        <button class="filter-btn"><span class="icon-filter"></span>Filter</button>
+                    </div>
+                    <!-- Filter Button Container : End -->
+
+                    <!-- Main-Cards-Section : Start -->
+                    <div class="cards d-flex">
+                        <!-- Card-1: Start -->
+                        <div class="card-wrapper ">
+                            <div class="card d-flex card-view">
+                                <div class="card-desc d-flex flex-column h-100 flex-grow-1">
+                                    <span class="card-desc-title">Scans</span>
+                                    <span class="card-desc-number">350</span>
+                                </div>
+                                <div class="card-icon-container1 card-icon-container h-100 d-flex justify-center align-items-center">
+                                    <span class="icon-barcode card-icon"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card-1: End -->
+                        <!-- Card-2: Start -->
+                        <div class="card-wrapper ">
+                            <div class="card d-flex card-view">
+                                <div class="card-desc d-flex flex-column h-100 flex-grow-1">
+                                    <span class="card-desc-title">List</span>
+                                    <span class="card-desc-number">350</span>
+                                </div>
+                                <div class="card-icon-container2 card-icon-container h-100 d-flex justify-center align-items-center">
+                                    <span class="icon-list card-icon"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card-2: End -->
+                        <!-- Card-3: Start -->
+                        <div class="card-wrapper ">
+                            <div class="card d-flex card-view">
+                                <div class="card-desc d-flex flex-column h-100 flex-grow-1">
+                                    <span class="card-desc-title">Cost</span>
+                                    <span class="card-desc-number">$345</span>
+                                </div>
+                                <div class="card-icon-container3 card-icon-container h-100 d-flex justify-center align-items-center">
+                                    <span class="icon-calculator card-icon"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card-3: End -->
+                        <!-- Card-4: Start -->
+                        <div class="card-wrapper ">
+                            <div class="card d-flex card-view">
+                                <div class="card-desc d-flex flex-column h-100 flex-grow-1">
+                                    <span class="card-desc-title">Buy Now</span>
+                                    <span class="card-desc-number">350</span>
+                                </div>
+                                <div class="card-icon-container4 card-icon-container h-100 d-flex justify-center align-items-center">
+                                    <span class="icon-cart card-icon"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card-4: End -->
+                        <!-- Card-5: Start -->
+                        <div class="card-wrapper ">
+                            <div class="card d-flex card-view">
+                                <div class="card-desc d-flex flex-column h-100 flex-grow-1">
+                                    <span class="card-desc-title">Buy Cheaper</span>
+                                    <span class="card-desc-number">350</span>
+                                </div>
+                                <div class="card-icon-container5 card-icon-container h-100 d-flex justify-center align-items-center">
+                                    <span class="icon-dollar card-icon"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card-5: End -->
+                        <!-- Card-6: Start -->
+                        <div class="card-wrapper ">
+                            <div class="card d-flex card-view">
+                                <div class="card-desc d-flex flex-column h-100 flex-grow-1">
+                                    <span class="card-desc-title">Buy healthier</span>
+                                    <span class="card-desc-number">350</span>
+                                </div>
+                                <div class="card-icon-container6 card-icon-container h-100 d-flex justify-center align-items-center">
+                                    <span class="icon-heart card-icon"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card-6: End -->
+                    </div>
+                    <!-- Main-Cards-Section : End -->
+                </section>
+                <!-- Main-Section-1 : End -->
+
+
+                <!-- Main-Section-2: Start -->
+                <section class="Activity-Table d-flex flex-column ">
+                    <!-- Recent Activity Heading: start -->
+                    <h3>Recent Activity</h3>
+                    <!-- Recent Activity Heading: End -->
+                    <div class="tabular-List">
+                        <!-- Table List: Start  -->
+                        <table class="table">
+                            <thead class="table-header">
+                                <tr class="table-headings">
+                                    <th class="t-head">Item</th>
+                                    <th class="t-head">Date</th>
+                                    <th class="t-head">Type</th>
+                                    <th class="t-head">Est. Cost</th>
+                                    <th class="t-head">Last</th>
+                                    <th class="t-head">List</th>
+                                    <th class="t-head">Auto</th>
+                                    <th class="t-head">Buy Now</th>
+                                </tr>
+                            </thead>
+
+                            <!-- Table Body: Start  -->
+                            <tbody class="table-body">
+                                <!-- Row 1: Start -->
+                                <tr class="table-row">
+                                    <td class="t-data d-flex product-desc align-items-center">
+                                        <figure class="t-img pdt-img">
+                                            <img class="pdt-name-avatar" src="./assets/images/product_image_replace.png" alt="peanutbutter">
+                                        </figure>
+                                        <span> <strong> Skippy Peanut Butter 160z </strong></span>
+                                    </td>
+                                    <td class="t-data">07 Nov,8:35pm</td>
+                                    <td class="t-data"> 
+                                        <div class="status status-type-alert">
+                                            <span class="alert">Discarded</span>
+                                        </div>
+                                    </td>
+                                    <td class="t-data">$40.27</td>
+                                    <td class="t-data">18 Aug</td>
+                                    <td class="t-data">Grocery</td>
+                                    <td class="t-data">No</td>
+                                    <td class="t-data">
+                                        <figure class="t-img d-flex align-items-center">
+                                            <img class="pdt-amazon" src="./assets/images/amazon-logo.jpg" alt="amazonlogo">
+                                        </figure>
+                                    </td>
+                                </tr>
+                                <!-- Row 1: End -->
+
+
+                                <!-- Row 2: Start -->
+                                <tr class="table-row">
+                                    <td class="t-data d-flex product-desc align-items-center">
+                                        <figure class="t-img pdt-img">
+                                            <img class="pdt-name-avatar" src="./assets/images/product_image_replace.png" alt="peanutbutter">
+                                        </figure>
+                                        <span> <strong> Skippy Peanut Butter 160z </strong></span>
+                                    </td>
+                                    <td class="t-data">08 Nov,8:35pm</td>
+                                    <td class="t-data"> 
+                                        <div class="status status-type-primary">
+                                            <span class="primary">Want</span>
+                                        </div>
+                                    </td>
+                                    <td class="t-data">$76.50</td>
+                                    <td class="t-data">17 Aug</td>
+                                    <td class="t-data">August</td>
+                                    <td class="t-data">No</td>
+                                    <td class="t-data">
+                                       N/A
+                                    </td>
+                                </tr>
+                                <!-- Row 2: End -->
+
+                                <!-- Row 3: Start -->
+                                <tr class="table-row">
+                                    <td class="t-data d-flex product-desc align-items-center">
+                                        <figure class="t-img pdt-img">
+                                            <img class="pdt-name-avatar" src="./assets/images/product_image_replace.png" alt="peanutbutter">
+                                        </figure>
+                                        <span> <strong> Skippy Peanut Butter 160z </strong></span>
+                                    </td>
+                                    <td class="t-data">09 Nov,8:35pm</td>
+                                    <td class="t-data"> 
+                                        <div class="status status-type-warning">
+                                            <span class="warning">Waiting</span>
+                                        </div>
+                                    </td>
+                                    <td class="t-data">$47.85</td>
+                                    <td class="t-data">22 Aug</td>
+                                    <td class="t-data">Wholefood</td>
+                                    <td class="t-data">No</td>
+                                    <td class="t-data">
+                                        <figure class="t-img d-flex align-items-center">
+                                            <img class="pdt-amazon" src="./assets/images/amazon-logo.jpg" alt="amazonlogo">
+                                        </figure>
+                                    </td>
+                                </tr>
+                                 <!-- Row 3: End -->
+
+                                <!-- Row 4: Start -->
+                                <tr class="table-row">
+                                    <td class="t-data d-flex product-desc align-items-center">
+                                        <figure class="t-img pdt-img">
+                                            <img class="pdt-name-avatar" src="./assets/images/product_image_replace.png" alt="peanutbutter">
+                                        </figure>
+                                        <span> <strong> Skippy Peanut Butter 160z </strong></span>
+                                    </td>
+                                    <td class="t-data">10 Nov,8:35pm</td>
+                                    <td class="t-data"> 
+                                        <div class="status status-type-alert">
+                                            <span class="alert">Discarded</span>
+                                        </div>
+                                    </td>
+                                    <td class="t-data">$27.43</td>
+                                    <td class="t-data">26 Aug</td>
+                                    <td class="t-data">Grocery</td>
+                                    <td class="t-data">No</td>
+                                    <td class="t-data">
+                                        N/A
+                                    </td>
+                                </tr>
+                                <!-- Row 4: End -->
+
+                                <!-- Row 5: Start -->
+                                <tr class="table-row">
+                                    <td class="t-data d-flex product-desc align-items-center">
+                                        <figure class="t-img pdt-img">
+                                            <img class="pdt-name-avatar" src="./assets/images/product_image_replace.png" alt="peanutbutter">
+                                        </figure>
+                                        <span> <strong> Skippy Peanut Butter 160z </strong></span>
+                                    </td>
+                                    <td class="t-data">11 Nov,8:35pm</td>
+                                    <td class="t-data"> 
+                                        <div class="status status-type-primary">
+                                            <span class="primary-clr">Cancelled</span>
+                                        </div>
+                                    </td>
+                                    <td class="t-data">$35.02</td>
+                                    <td class="t-data">20 Aug</td>
+                                    <td class="t-data">August</td>
+                                    <td class="t-data">No</td>
+                                    <td class="t-data">
+                                        <figure class="t-img d-flex align-items-center">
+                                            <img class="pdt-amazon" src="./assets/images/amazon-logo.jpg" alt="amazonlogo">
+                                        </figure>
+                                    </td>
+                                </tr>
+                                <!-- Row 5: End -->
+
+                                <!-- Row 6: Start -->
+                                <tr class="table-row">
+                                    <td class="t-data d-flex product-desc align-items-center">
+                                        <figure class="t-img pdt-img">
+                                            <img class="pdt-name-avatar" src="./assets/images/product_image_replace.png" alt="peanutbutter">
+                                        </figure>
+                                        <span> <strong> Skippy Peanut Butter 160z </strong></span>
+                                    </td>
+                                    <td class="t-data">12 Nov,8:35pm</td>
+                                    <td class="t-data"> 
+                                        <div class="status status-type-primary">
+                                            <span class="primary">Want</span>
+                                        </div>
+                                    </td>
+                                    <td class="t-data">$32.85</td>
+                                    <td class="t-data">11 Aug</td>
+                                    <td class="t-data">August</td>
+                                    <td class="t-data">No</td>
+                                    <td class="t-data">
+                                        N/A
+                                    </td>
+                                </tr>
+                                <!-- Row 6: End -->
+
+                                <!-- Row 7: Start -->
+                                <tr class="table-row">
+                                    <td class="t-data d-flex product-desc align-items-center">
+                                        <figure class="t-img pdt-img">
+                                            <img class="pdt-name-avatar" src="./assets/images/product_image_replace.png" alt="peanutbutter">
+                                        </figure>
+                                        <span> <strong> Skippy Peanut Butter 160z </strong></span>
+                                    </td>
+                                    <td class="t-data">13 Nov,8:35pm</td>
+                                    <td class="t-data"> 
+                                        <div class="status status-type-primary">
+                                            <span class="primary">Want</span>
+                                        </div>
+                                    </td>
+                                    <td class="t-data">$58.99</td>
+                                    <td class="t-data">23 Aug</td>
+                                    <td class="t-data">Wholefood</td>
+                                    <td class="t-data">No</td>
+                                    <td class="t-data">
+                                        <figure class="t-img d-flex align-items-center">
+                                            <img class="pdt-amazon" src="./assets/images/amazon-logo.jpg" alt="amazonlogo">
+                                        </figure>
+                                    </td>
+                                </tr>
+                                <!-- Row 7: End -->
+
+                                <!-- Row 8: Start -->
+                                <tr class="table-row">
+                                    <td class="t-data d-flex product-desc">
+                                        <figure class="t-img pdt-img">
+                                            <img class="pdt-name-avatar" src="./assets/images/product_image_replace.png" alt="peanutbutter">
+                                        </figure>
+                                        <span> <strong> Skippy Peanut Butter 160z </strong></span>
+                                    </td>
+                                    <td class="t-data">14 Nov,8:35pm</td>
+                                    <td class="t-data"> 
+                                        <div class="status status-type-primary">
+                                            <span class="primary">Want</span>
+                                        </div>
+                                    </td>
+                                    <td class="t-data">$63.44</td>
+                                    <td class="t-data">23 Aug</td>
+                                    <td class="t-data">Grocery</td>
+                                    <td class="t-data">No</td>
+                                    <td class="t-data">
+                                        <figure class="t-img d-flex align-items-center">
+                                            <img class="pdt-amazon" src="./assets/images/amazon-logo.jpg" alt="amazonlogo">
+                                        </figure>
+                                    </td>
+                                </tr>
+                                <!-- Row 8: End -->
+                            </tbody>
+                            <!-- Table Body: End  -->
+                        </table>
+                        <!-- Table List: End  -->
+                    </div>
+                </section>
+                <!-- Main-Section-2: End -->
+            </main>
+            <!-- Main Content : End -->
+        </div>
+    </div>
+</body>
+
+</html>

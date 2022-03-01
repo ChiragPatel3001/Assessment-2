@@ -1,0 +1,17 @@
+// All the SCSS mixins goes here
+// All the SCSS mixins goes here
+@mixin for-size($size) {
+    @if $size == small-screen-phone {
+      @media (max-width: 300px) { @content; }
+    } @else if $size == phone-only {
+      @media (max-width: 599px) { @content; }
+    } @else if $size == tablet-portrait-up {
+      @media (max-width: 768px) { @content; }
+    } @else if $size == tablet-landscape-up {
+      @media (max-width: 992px) { @content; }
+    } @else if $size == desktop-up {
+      @media (max-width: 1200px) { @content; }
+    } @else if $size == big-desktop-up {
+      @media (max-width: 1400px) { @content; }
+    }
+  }
