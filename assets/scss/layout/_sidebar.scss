@@ -44,6 +44,7 @@ li{
     align-items: center;
     color: $icon-color;
     cursor: pointer;
+    transition: all 0.1s ease;
 
     @include for-size(tablet-landscape-up) {
         font-size: 0.75rem;

@@ -42,11 +42,11 @@ $heart: #fb5e5e;
  
 // cards-icon-bg
 $scan:$primary-bg;
-$list:#e9f4ff;
-$cost:#e7f8f0;
-$cart:#fff4e8;
-$dollar:#f1f0ff;
-$heart:#ffeeed;
+$bg-list:#e9f4ff;
+$bg-cost:#e7f8f0;
+$bg-cart:#fff4e8;
+$bg-dollar:#f1f0ff;
+$bg-heart:#ffeeed;
 
 // Navbar-border
 $topNav-border-bottom: #e2e2e2;
@@ -65,3 +65,10 @@ $card-theme: (
 
 // table
 $table-primary: #000000;
+
+$table-color:(
+  "alert": $alert,
+  "primary": $primary,
+  "warning": $warning,
+  "neutral":  #000000
+);

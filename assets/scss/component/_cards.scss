@@ -60,39 +60,19 @@
             background-color: $content-bg ;
         }
         .card-icon-container2{
-            background-color: $list;
+            background-color: $bg-list;
         }
         .card-icon-container3{
-            background-color: $cost;
+            background-color: $bg-cost;
         }
         .card-icon-container4{
-            background-color: $cart;
+            background-color: $bg-cart;
         }
         .card-icon-container5{
-            background-color: $dollar ;
+            background-color: $bg-dollar ;
         }
         .card-icon-container6{
-            background-color: $heart;
+            background-color: $bg-heart;
         }
 }
-}
-
-//tried using the variables but they were overridden
-.icon-barcode{
-    color: $barcode;
-}
-.icon-list{
-    color: #389cff;
-}
-.icon-calculator{
-    color: $calculator;
-}
-.icon-cart{
-    color: #f58d2a;
-}
-.icon-dollar{
-    color: #6a69ff;
-}
-.icon-heart{
-    color: $alert;
 }

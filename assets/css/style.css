@@ -1,4 +1,186 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.main-cards .card-barcode {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.main-cards .card-barcode .card-icon-container {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.main-cards .card-barcode .card-icon {
+  color: #000000;
+}
+
+.main-cards .card-barcode:hover {
+  background-color: black;
+}
+
+.main-cards .card-barcode:hover .card-desc-title, .main-cards .card-barcode:hover .card-desc-number, .main-cards .card-barcode:hover .card-icon {
+  color: white;
+}
+
+.main-cards .card-barcode:hover .card-icon-container {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main-cards .card-list {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.main-cards .card-list .card-icon-container {
+  background-color: rgba(56, 156, 255, 0.1);
+}
+
+.main-cards .card-list .card-icon {
+  color: #389cff;
+}
+
+.main-cards .card-list:hover {
+  background-color: #389cff;
+}
+
+.main-cards .card-list:hover .card-desc-title, .main-cards .card-list:hover .card-desc-number, .main-cards .card-list:hover .card-icon {
+  color: white;
+}
+
+.main-cards .card-list:hover .card-icon-container {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main-cards .card-calculator {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.main-cards .card-calculator .card-icon-container {
+  background-color: rgba(24, 173, 111, 0.1);
+}
+
+.main-cards .card-calculator .card-icon {
+  color: #18ad6f;
+}
+
+.main-cards .card-calculator:hover {
+  background-color: #18ad6f;
+}
+
+.main-cards .card-calculator:hover .card-desc-title, .main-cards .card-calculator:hover .card-desc-number, .main-cards .card-calculator:hover .card-icon {
+  color: white;
+}
+
+.main-cards .card-calculator:hover .card-icon-container {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main-cards .card-cart {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.main-cards .card-cart .card-icon-container {
+  background-color: rgba(245, 141, 42, 0.1);
+}
+
+.main-cards .card-cart .card-icon {
+  color: #f58d2a;
+}
+
+.main-cards .card-cart:hover {
+  background-color: #f58d2a;
+}
+
+.main-cards .card-cart:hover .card-desc-title, .main-cards .card-cart:hover .card-desc-number, .main-cards .card-cart:hover .card-icon {
+  color: white;
+}
+
+.main-cards .card-cart:hover .card-icon-container {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main-cards .card-dollar {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.main-cards .card-dollar .card-icon-container {
+  background-color: rgba(106, 105, 255, 0.1);
+}
+
+.main-cards .card-dollar .card-icon {
+  color: #6a69ff;
+}
+
+.main-cards .card-dollar:hover {
+  background-color: #6a69ff;
+}
+
+.main-cards .card-dollar:hover .card-desc-title, .main-cards .card-dollar:hover .card-desc-number, .main-cards .card-dollar:hover .card-icon {
+  color: white;
+}
+
+.main-cards .card-dollar:hover .card-icon-container {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main-cards .card-heart {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.main-cards .card-heart .card-icon-container {
+  background-color: rgba(251, 94, 94, 0.1);
+}
+
+.main-cards .card-heart .card-icon {
+  color: #fb5e5e;
+}
+
+.main-cards .card-heart:hover {
+  background-color: #fb5e5e;
+}
+
+.main-cards .card-heart:hover .card-desc-title, .main-cards .card-heart:hover .card-desc-number, .main-cards .card-heart:hover .card-icon {
+  color: white;
+}
+
+.main-cards .card-heart:hover .card-icon-container {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.status-type-alert {
+  background-color: rgba(220, 97, 98, 0.1);
+}
+
+.status-type-alert span {
+  color: #dc6162;
+}
+
+.status-type-primary {
+  background-color: rgba(0, 177, 28, 0.1);
+}
+
+.status-type-primary span {
+  color: #00b11c;
+}
+
+.status-type-warning {
+  background-color: rgba(245, 141, 42, 0.1);
+}
+
+.status-type-warning span {
+  color: #f58d2a;
+}
+
+.status-type-neutral {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.status-type-neutral span {
+  color: #000000;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -229,30 +411,6 @@ img {
   background-color: #ffeeed;
 }
 
-.icon-barcode {
-  color: #000000;
-}
-
-.icon-list {
-  color: #389cff;
-}
-
-.icon-calculator {
-  color: #18ad6f;
-}
-
-.icon-cart {
-  color: #f58d2a;
-}
-
-.icon-dollar {
-  color: #6a69ff;
-}
-
-.icon-heart {
-  color: #dc6162;
-}
-
 .avatar {
   height: 50px;
   width: 50px;
@@ -468,6 +626,8 @@ li {
           align-items: center;
   color: #82838c;
   cursor: pointer;
+  -webkit-transition: all 0.1s ease;
+  transition: all 0.1s ease;
 }
 
 @media (max-width: 992px) {
@@ -605,34 +765,10 @@ li:hover {
   border-radius: 20px;
 }
 
-.status-type-alert {
-  background-color: #ffeeed;
-}
-
-.status-type-primary {
-  background-color: #e7f8f0;
-}
-
-.status-type-warning {
-  background-color: #fff4e8;
-}
-
-.status-type-primary {
-  background-color: #fafafa;
-}
-
-.alert {
-  color: #dc6162;
-}
-
 @media (max-width: 1200px) {
   .alert {
     font-size: 0.7rem;
   }
-}
-
-.primary {
-  color: #00b11c;
 }
 
 @media (max-width: 1200px) {
@@ -641,18 +777,10 @@ li:hover {
   }
 }
 
-.warning {
-  color: #f58d2a;
-}
-
 @media (max-width: 1200px) {
   .warning {
     font-size: 0.7rem;
   }
-}
-
-.primary-clr {
-  color: #000000;
 }
 
 @media (max-width: 1200px) {
