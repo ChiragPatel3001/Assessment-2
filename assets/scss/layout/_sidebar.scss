@@ -84,6 +84,10 @@ li{
         left: 200px;
         top: 120px;
     }
+    @include for-size(tablet-portrait-up){
+        left: 160px;
+        top: 100px;
+    }
 
 }
 #sidebar-toggle:checked ~ .sidebar{

@@ -2,7 +2,7 @@
     // border: 1px solid firebrick;
     margin-top: 30px;
     height: 500px;
-    // padding: 0 20px;
+    width: 100%;
     background-color: $primary-bg;
     position: relative;
     overflow: auto;
@@ -61,43 +61,4 @@
     text-align: center;
     border-radius: 20px;
 }
-// .status-type-alert {
-//     background-color: $bg-heart;
-// }
-// .status-type-primary {
-//     background-color: $bg-cost;
-// }
-// .status-type-warning {
-//     background-color: $bg-cart;
-// }
-// .status-type-neutral {
-//     background-color: $primary-bg;
-// }
-.alert {
 
-
-    @include for-size(desktop-up) {
-        font-size: 0.7rem;
-    }
-}
-.primary {
-
-
-    @include for-size(desktop-up) {
-        font-size: 0.7rem;
-    }
-}
-.warning {
-
-
-    @include for-size(desktop-up) {
-        font-size: 0.7rem;
-    }
-}
-.primary-clr {
-
-
-    @include for-size(desktop-up) {
-        font-size: 0.7rem;
-    }
-}
