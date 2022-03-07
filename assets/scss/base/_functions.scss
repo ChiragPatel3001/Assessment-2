@@ -13,10 +13,10 @@
                 background-color: rgba($color: $value, $alpha: 1);
 
                 .card-desc-title, .card-desc-number,.card-icon{
-                    color: white;
+                    color: $content-bg
                 }
                 .card-icon-container{
-                    background-color: rgba($color: white, $alpha: 0.2);
+                    background-color: rgba($color: $content-bg, $alpha: 0.2);
                 }
             }
         }

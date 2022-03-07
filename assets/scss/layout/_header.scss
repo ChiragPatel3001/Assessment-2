@@ -53,7 +53,7 @@
         }
         
         @include for-size(phone-only) {
-            font-size: 1rem;
+            font-size: $base-font;
         }
     }
 

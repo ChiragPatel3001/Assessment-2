@@ -1,8 +1,9 @@
 // All the SCSS Variables goes here
-
+// font-size
+$base-font: 1rem;
 
 //cards
-$card-icon-fontSize: 1rem;
+$card-icon-fontSize: $base-font;
 $card-height: 100px;
 $card-width: 16.66%;
 $card-margin: 20px 10px 20px 10px;
